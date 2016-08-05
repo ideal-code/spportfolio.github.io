@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,700italic,400italic|Oswald:400,700|Open+Sans:400,700,700italic,400italic&subset=latin,cyrillic-ext,latin-ext,cyrillic);
+body {
+    margin: 0;
+}
+
+section {
+    height: 100vh;
+    background-color: #667;
+    position: relative;
+}
+
+.sect_1 {
+    background-image: url(nastol.com.ua-42304.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header_text {
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -20px;
+}
+
+.sect_2 {
+    background: #ecf0f1;
+}
+
+.sect_3 {
+    z-index: 2;
+    background-image: url(nastol.com.ua-20199.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.second_header_text {
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -20px;
+}
+
+.sect_4 {
+    z-index: 2;
+    background-image: url(artleo.com-116355.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.third_header_text {
+    font-weight: bold;
+    color: #c0392b;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 165%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -20px;
+}
+
+.content_text {
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+    height: 35%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: -17.5px;
+    border: 5px solid #34495e;
+    background: url(bgi.png) repeat 100%;
+}
+
+.second_content_text{
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: block;
+    width: 80%;
+    height: 23%;
+    text-align: center;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: -11.5%;
+    border: 5px solid #34495e;
+    background: url(bgi.png) repeat 100%;
+}
+
+.sect_5 {
+    background: #ecf0f1;
+}
+
+.links {
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -175px;
+    margin-top: -20px;
+}
+
+.instagram{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 50px;
+    border-radius: 100%;
+}
+
+.twitter{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    left: 400px;
+}
+
+.vk{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    right: 400px;
+
+}
+
+.github{
+    cursor: pointer;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 60%;
+    right: 50px;
+}
+
+.reserved{
+    font-weight: bold;
+    color: #2c3e50;
+    font-family: 'Oswald', 'Open Sans', 'Roboto', 'Arial', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50%;
+    margin-top: -20px;
+}
